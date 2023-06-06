@@ -34,4 +34,4 @@ Contributions are welcome! If you'd like to contribute to PGwallah, please follo
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
-If you have any questions or suggestions regarding PGwallah, please feel free to contact us at [email protected]
+If you have any questions or suggestions regarding PGwallah, please feel free to contact us at sachinu760@gmail.com
