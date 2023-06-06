@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PG wallah</title>
+  <link href="css/apply.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <nav class="navbar " id="navbar">
+  <div class="logo"><img src="../images/pgw.jpg"></div> 
+  <ul class="navlist classresp hresp" id="navlist">
+  <li ><a  href="home">Home</a></li>
+  <li class="active"><a href="apply">Advertise PG</a></li>
+  <li ><a href="services">Find PG</a></li>
+  <li><a href="contact">Contact</a></li>
+  <li><a href="about">About</a></li>
+  </ul>
+  </nav>
+<div class="burger" id="burger">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  </div>
+<div class="apply" id="apply">
+  <h1>Want to advertise your PG ?</h1>
+  <p class="headpara">Fill the form to apply</p>
+<form action="/PG" class="applyform" method="POST" autocomplete="off" enctype="multipart/form-data">
+<p>Name of the owner</p>
+<input type="text" placeholder="Enter name" name="Name" required/>
+<p>Phone number</p>
+<input type="text" placeholder="Enter phone number" name="PhoneNumber" required/>
+<p>Email Address</p>
+<input type="email" placeholder="Enter Email" name="Email" required/>
+<p>Enter Place</p>
+<input type="text" placeholder="Enter Place" name="Place" required/>
+<p>Address</p>
+<textarea id="address" placeholder="Enter Address" name = "Address" cols="30" rows="10" required></textarea>
+<p>Upload Images of rooms here</p>
+<input type="file" class="prodimg" name="Image" required/>
+<p>Description about the PG room</p>
+<textarea name="Description" id="address" placeholder="Enter Description" cols="30" rows="10" required></textarea>
+<p>Rent per month</p>
+<input type="text" placeholder=" Enter Rent" name="Rent" required>
+<div class="btn">
+<button type="submit" value="form" class="applybtn" onclick="return validateForm()">Apply</button>
+<button type="reset" class="resetbtn">Reset</button>
+</form>  
+</div>
+<div>
+<h2 style="color:white; text-align:center;padding:10px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">See Owner Record</h2>  
+<a href="/find"><button class="findbtn" >Click Here</button></a>
+</div>
+</div>
+<footer class="foot">
+<ul class="sm">
+<li><a href="https://www.instagram.com/"><img src="../icons/instagram.png" alt="ig"></a></li>
+<li><a href="https://www.linkedin.com/in/sachin-upadhyay-6691a4251/"><img src="../icons/linkedin (1).png" alt="ln"></a></li>
+<li><a href="https://youtu.be/C3mRYniCfYw"><img src="../icons/youtube.png" alt="yt"></a></li>
+<li><a href="../bot/bot.html"><img src="../images/bot2.png"  class="imgbt"></a></li>
+</ul>
+</footer>
+<script src="../javascript/project.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+
++ start
+- Hello Sir/Ma'am Welcome to PG Wallah , How may I help you ?
++ *
+- Type following keywords for answere : <br> 1. find rooms ( to find rooms in any place ) <br> 2. links ( to get redirect links again ) <br> 3. exit ( Go back to the home page ) <br> 4. log out ( Log out of the website) ?
++ yes
+- Ok let me make this easy for you, Enter place you want to find the PG ?
++ find rooms 
+- Enter the Place where you want to find the PG ?
++ dehradun
+- Here is the link for our page where you can find about the rooms in Dehradun: <a href="../dehradun">Click here</a>
++ delhi
+- Here is the link for our page where you can find about the rooms in Delhi: <a href="../delhi">Click here</a> 
++ hi 
+- Hi, I am PG wallah Bot , I can do the following things for you :<br> These are the redirect links Which will help you to use the website . <br> 1. Home Page : <a href="../home">Click here</a> <br>2. Owner form : <a href="../apply">Click here</a> <br>3. Find rooms page : <a href="../services">Click here</a> <br>4. Contact form : <a href="../contact">Click here</a> <br>5. About the website : <a href="../about">Click here</a> <br> 6. If you want anything else just write about it .
++ tell me about the website 
+- PG wallah web-app offers a platform to all the working people and students living far from there home to find a home like environment in the place they are working/studying .  
++ links
+- These are the redirect links Which will help you to use the website . <br> 1. Home Page : <a href="../home">Click here</a> <br>2. Owner form : <a href="../apply">Click here</a> <br>3. Find rooms page : <a href="../services">Click here</a> <br>4. Contact form : <a href="../contact">Click here</a> <br>5. About the website : <a href="../about">Click here</a> <br> 6. If you want anything else just write about it .
++ who is the owner of this website
+- Its made by Sachin Upadhyay . You can know more about him here <a href="../about">Click here</a>
++ log out
+- Logging out - <a href="../index">Click here</a>
++ exit
+- Exit - <a href="../home">Click here</a>
++ thank you
+- Anytime at your service !!

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/records.css" type="text/css"/>
+    <title>Owner Record</title>
+</head>
+<h1>Owner Records : PG wallah</h1>
+<tbody>
+  <table>
+    <thead>
+      <tr>
+        <th class="col-1">Owner Name</th>
+        <th class="col-2">Phone Number</th>
+        <th class="col-3">Email</th>
+        <th class="col-4">Place</th>
+        <th class="col-5">Address</th>
+        <th class="col-6">Description</th>
+        <th class="col-7">Rent /Month</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{#each data}}
+    <tr>
+      <td class="col-1">{{this.Name}}</td>
+      <td class="col-2">{{this.PhoneNumber}}</td>
+      <td class="col-3">{{this.Email}}</td>
+      <td class="col-4">{{this.Place}}</td>
+      <td class="col-5">{{this.Address}}</td>
+      <td class="col-6">{{this.Description}}</td>
+      <td class="col-7">{{this.Rent}}</td>
+    </tr>
+    {{/each}}
+    </tbody>
+    </table>
+</tbody>
+</html>

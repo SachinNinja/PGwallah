@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PG wallah</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+ 
+</head>
+
+<body>
+  <nav class="navbar " id="navbar">
+  <div class="logo"><img src="../images/pgw.jpg"></div> 
+  <ul class="navlist classresp hresp" id="navlist">
+  <li class="active"><a  href="home">Home</a></li>
+  <li><a href="apply">Advertise PG</a></li>
+  <li ><a href="services">Find PG</a></li>
+  <li><a href="contact">Contact</a></li>
+  <li><a href="about">About</a></li>
+  <li><a href="index">Log Out</a></li>
+  <li class="logi">User:</li>
+  {{#each obj}}
+  <li class="loginName">{{this.Username}}</li>
+  {{/each}}
+  </ul>
+  </nav>
+<div class="burger" id="burger">
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  </div>
+<div class="home vp" id="home">
+  <h1 class="headhome">Welcome to <i style="color:rgb(255, 81, 0)">PG wallah</i></h1>
+  <p class="parahome"><i>Find the best suited rooms in just one click ....</i></p>
+</div>
+<footer class="foot">
+<ul class="sm">
+<li><a href="https://www.instagram.com/"><img src="../icons/instagram.png" alt="ig"></a></li>
+<li><a href="https://www.linkedin.com/in/sachin-upadhyay-6691a4251/"><img src="../icons/linkedin (1).png" alt="ln"></a></li>
+<li><a href="https://youtu.be/C3mRYniCfYw"><img src="../icons/youtube.png" alt="yt"></a></li>
+<li><a href="../bot/bot.html"><img src="../images/bot2.png"  class="imgbt"></a></li>
+</ul>
+</footer>
+<script src="../javascript/project.js"></script>
+</body>
+</html>
